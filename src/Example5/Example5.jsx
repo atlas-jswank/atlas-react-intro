@@ -1,14 +1,18 @@
-import Code from "../@atlasschool/code/Code";
+import Code from "@atlasschool/code";
 
-import EvaluatingJS from "@/Example5/EvaluatingJS";
-import EvaluatingJSString from "@/Example5/EvaluatingJS?raw";
+import EvaluatingJS from "./EvaluatingJS";
+import EvaluatingJSString from "./EvaluatingJS?raw";
 
 export function Example5() {
   return (
     <div className="example">
       <h3>Example 5 - Evaluating JS in JSX</h3>
       <p>
-        To evaluate javascript or pass a variable in the html you must surround it in curly brackets.
+        To{" "}
+        <a href="https://react.dev/learn/javascript-in-jsx-with-curly-braces">
+          evaluate javascript
+        </a>{" "}
+        or pass a variable in the html you must surround it in curly brackets.
       </p>
 
       <Code
